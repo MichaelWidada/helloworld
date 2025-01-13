@@ -18,7 +18,7 @@ res.send(`Hello World!<br /> <a href="/about">Go to /about route</a>`);
 
 app.get("/about", (req, res) => {
 
-res.json({course: "WEB322", section: "NEE", student: "Michael Widada", task: "In-class Assignment 1", daate: new Date()});
+res.json({course: "WEB322", section: "NEE", student: "Michael Widada", task: "In-class Assignment 1", date: new Date()});
 
 });
 
